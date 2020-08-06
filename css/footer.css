@@ -1,0 +1,73 @@
+.pie-pag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5% 0;
+}
+
+.pie-pag h4{
+    font-family: IBM Plex Mono;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;  
+    font-weight: 400;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+ 
+  .social-links ul li{
+    margin: 0 19px;
+}
+
+  .social-links ul li a{
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+
+  
+
+
+@media screen and (min-width: 600px){
+    .pie-pag{
+        justify-content: space-between;
+        height: 95px;
+        padding: 0;
+    }
+
+    .pie-pag h4{
+        font-size: 16px;
+        line-height: 28px;
+        margin: 0;
+        position: relative;
+        left: 6.9%;
+    }
+    .social-links{
+        position: relative;
+        right: 6.9%;
+    }
+    .social-links ul{
+        margin: 0;
+    }
+    .social-links ul li{
+        margin: 0;
+        margin-left: 36px;
+    }
+    .social-links ul li a{
+        font-size: 18px;
+    }
+}
